@@ -1,0 +1,26 @@
+/* Container holding the image and the text */
+.header {
+    text-align: center;
+    color: rgb(121, 153, 153);
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgb(121, 153, 153);
+    width: 60%;
+}
+
+.image {
+    height: 40em;
+    width: 40em;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    opacity: 0.5;
+}
